@@ -10,11 +10,11 @@ Para baixar a imagem use link oficial, exemplo http://ftp.unicamp.br/pub/centos/
 ### Criar o arquivo /etc/vbox/networks.conf
 sudo mkdir -p /etc/vbox/
 
-``bash
+```bash
 sudo cat <<EOF > /etc/xinetd.d/tftp /etc/vbox/networks.conf
 * 0.0.0.0/0 ::/0
 EOF
-``
+```
 
 
 ## Etapas
